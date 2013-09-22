@@ -1,6 +1,7 @@
-picade
+Picade
 ======
 
 All Picade related designs and documents.
 
-/controller-pcb-eagle contains the Eagle files for the Picade controller PCB
+- **eagle**: contains the Eagle files for the Picade controller
+- **software**: contains the Arduino code for the Picade controller
