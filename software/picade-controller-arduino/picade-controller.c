@@ -1,13 +1,11 @@
-const int inputCount = 11;
-
 // key codes to emmit when input detected
-char keys[inputCount]  = {KEY_LEFT_ARROW, KEY_UP_ARROW, KEY_RIGHT_ARROW, KEY_DOWN_ARROW, KEY_LEFT_CTRL, KEY_LEFT_ALT, '1', '5', '6', KEY_ESC, KEY_RETURN};
+char keys[]  = {KEY_LEFT_ARROW, KEY_UP_ARROW, KEY_RIGHT_ARROW, KEY_DOWN_ARROW, KEY_LEFT_CTRL, KEY_LEFT_ALT, '1', '5', '6', KEY_ESC, KEY_RETURN};
 // 0 = PORTB, 1 = PORTF, 2 = PORTD
-char ports[inputCount] = {0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2};
+char ports[] = {0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2};
 // bitmask to test the port against
-char masks[inputCount] = {B00000001, B00000010, B00000100, B00001000, B00000001, B00000010, B00010000, B00100000, B01000000, B00000100, B00001000};
+char masks[] = {B00000001, B00000010, B00000100, B00001000, B00000001, B00000010, B00010000, B00100000, B01000000, B00000100, B00001000};
 // current state (0 = unpressed, 1 = pressed)
-boolean pressed[inputCount] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+boolean pressed[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 void setup() {
   /*
@@ -18,7 +16,7 @@ void setup() {
   PORTF = B11110011; // set the pullup resistors on port F
 }
 
-void loop(){
+void loop() {
   /*
     Check the state of each input, if it has changed then output the corresponding keypress
   */
@@ -26,7 +24,7 @@ void loop(){
   char pinStates[3] = {PINB, PINF, PIND}; // read the current port states and store in 0, 1, 2 indexed array to match our port ids above
   
   // loop through each input
-  for(int i = 0; i < inputCount; i++)
+  for(int i = 0; i < sizeof(keys) / sizeof(char); i++)
   {
     // test for current state of this input
     boolean test = ~pinStates[ports[i]] & masks[i];
@@ -40,11 +38,9 @@ void loop(){
         Keyboard.press(keys[i]);
       else
         Keyboard.release(keys[i]);
-        
-      delay(50);
     }
   }
   
   if(changed) // if an input changed we'll add a small delay to avoid "bouncing" of the input
-    delay(100); // debounce
+    delay(50);
 }
