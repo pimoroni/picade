@@ -6,26 +6,67 @@ typedef struct
   boolean pressed; // is this input current pressed?
 } input;
 
+// PICADE: Switch to PCB Mappings
+// Ignore GPIO for Mini
+//-------------------------------------------------------------------
+//          /      U                 Button       | GPIO    \
+//         /                     1     2     3    |   1      \
+// Start  |    L   O   R                          |           |  Esc
+//         \                     4     5     6    |   2      /
+//          \      D                                        /
+//-------------------------------------------------------------------
+//           |  Select                              Enter  |
+
+
 input inputs[] = {
+  // 0 is PORTB
+  // 1 is PORTD
+  // 2 is PORTF
+
+  /* Joystick UDLR on Port B-0123 */
   { KEY_UP_ARROW,      0, B00000001, 0 },
   { KEY_DOWN_ARROW,    0, B00000010, 0 },
   { KEY_LEFT_ARROW,    0, B00000100, 0 },
   { KEY_RIGHT_ARROW,   0, B00001000, 0 },
 
-  /* port F */
-  { KEY_LEFT_CTRL,     1, B00000001, 0 },
-  { KEY_LEFT_ALT,      1, B00000010, 0 },
-  { KEY_LEFT_CTRL,     1, B00010000, 0 },
-  { KEY_LEFT_ALT,      1, B00100000, 0 },
-  { KEY_LEFT_CTRL,     1, B01000000, 0 },
-  { KEY_LEFT_ALT,      1, B10000000, 0 },
+  /* Buttons 123456 on Port F-01-4567 */
+  { KEY_LEFT_CTRL,     1, B10000000, 0 }, // Button 1
+  { KEY_LEFT_ALT,      1, B01000000, 0 }, // Button 2
+  { ' ',               1, B00100000, 0 }, // Button 3
+  { KEY_LEFT_SHIFT,    1, B00010000, 0 }, // Button 4
+  { 'z',               1, B00000010, 0 }, // Button 5
+  { 'x',               1, B00000001, 0 }, // Button 6
+  
+  /* GPIO 12/Maxi Buttons on Port D-46 */
+  { 'c',               2, B00010000, 0 }, // GPIO 1 / Button 7
+  { 'v',               2, B01000000, 0 }, // GPIO 2 / Button 8
 
-  /* port d */
-  { '5',               2, B00000001, 0 }, // 0
-  { '1',               2, B00000010, 0 }, // 1
-  { KEY_ESC,           2, B00000100, 0 }, // 2
-  { KEY_RETURN,        2, B00001000, 0 }  // 3
+  /* GPIO 3456 on Port D-7 B-456 */
+  { ' ',               2, B10000000, 0 }, // GPIO 3
+  { ' ',               0, B00010000, 0 }, // GPIO 4
+  { ' ',               0, B00100000, 0 }, // GPIO 5
+  { ' ',               0, B01000000, 0 }, // GPIO 6
+
+  /* Front/Side Buttons on Port D 0123 */
+  { '5',               2, B00000001, 0 }, // 1UP Coin
+  { '1',               2, B00000010, 0 }, // 1UP Start
+  { KEY_ESC,           2, B00000100, 0 }, // Esc
+  { KEY_RETURN,        2, B00001000, 0 }  // Enter
+
 };
+
+// PICADE: Default Mappings
+// Ignore GPIO for Mini
+//-------------------------------------------------------------------
+//          /      Up                Button       | GPIO    \
+//         /                  LCtrl   LAlt   Spa  |   C      \
+//   1    |    Le  O   Ri                         |           |  Esc
+//         \                  LShft    Z      X   |   V      /
+//          \      Do                                       /
+//-------------------------------------------------------------------
+//           |    5                                 Enter  |
+
+
 
 void setup() {
   /*
@@ -62,5 +103,5 @@ void loop() {
   }
 
   if(changed) // if an input changed we'll add a small delay to avoid "bouncing" of the input
-    delay(50);
+    delay(20);
 }
