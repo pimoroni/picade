@@ -37,9 +37,9 @@ input inputs[] = {
   { 'z',               1, B00000010, 0 }, // Button 5
   { 'x',               1, B00000001, 0 }, // Button 6
   
-  /* GPIO 12/Maxi Buttons on Port D-46 */
+  /* GPIO 12/Maxi Buttons 78 on Port D-46 */
   { 'c',               2, B00010000, 0 }, // GPIO 1 / Button 7
-  { 'v',               2, B01000000, 0 }, // GPIO 2 / Button 8
+  { 'v',    ,44           2, B01000000, 0 }, // GPIO 2 / Button 8
 
   /* GPIO 3456 on Port D-7 B-456 */
   { ' ',               2, B10000000, 0 }, // GPIO 3
@@ -47,11 +47,11 @@ input inputs[] = {
   { ' ',               0, B00100000, 0 }, // GPIO 5
   { ' ',               0, B01000000, 0 }, // GPIO 6
 
-  /* Front/Side Buttons on Port D 0123 */
-  { '5',               2, B00000001, 0 }, // 1UP Coin
-  { '1',               2, B00000010, 0 }, // 1UP Start
-  { KEY_ESC,           2, B00000100, 0 }, // Esc
-  { KEY_RETURN,        2, B00001000, 0 }  // Enter
+  /* Front/Side Buttons on Port D-0123 */
+  { '1',               2, B00000001, 0 }, // 1UP Start
+  { '5',               2, B00000010, 0 }, // 1UP Select/Coin
+  { KEY_ESC,           2, B00000100, 0 }, // Enter
+  { KEY_RETURN,        2, B00001000, 0 }  // Esc
 
 };
 
