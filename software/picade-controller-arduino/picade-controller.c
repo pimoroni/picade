@@ -39,7 +39,7 @@ input inputs[] = {
   
   /* GPIO 12/Maxi Buttons 78 on Port D-46 */
   { 'c',               2, B00010000, 0 }, // GPIO 1 / Button 7
-  { 'v',    ,44           2, B01000000, 0 }, // GPIO 2 / Button 8
+  { 'v',               2, B01000000, 0 }, // GPIO 2 / Button 8
 
   /* GPIO 3456 on Port D-7 B-456 */
   { ' ',               2, B10000000, 0 }, // GPIO 3
