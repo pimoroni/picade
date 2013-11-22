@@ -51,8 +51,8 @@ input inputs[] = {
   /* Front/Side Buttons on Port D-0123 */
   { '1',               2, B00000001, 0 }, // 1UP Start
   { '5',               2, B00000010, 0 }, // 1UP Select/Coin
-  { KEY_ESC,           2, B00000100, 0 }, // Enter
-  { KEY_RETURN,        2, B00001000, 0 }  // Esc
+  { KEY_RETURN,        2, B00000100, 0 }, // Enter
+  { KEY_ESC,           2, B00001000, 0 }  // Esc
 
 };
 
