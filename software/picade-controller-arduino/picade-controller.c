@@ -20,8 +20,9 @@ typedef struct
 
 input inputs[] = {
   // 0 is PORTB
-  // 1 is PORTD
-  // 2 is PORTF
+  // 1 is PORTF
+  // 2 is PORTD
+  // 3 is PORTC
 
   /* Joystick UDLR on Port B-0123 */
   { KEY_UP_ARROW,      0, B00000001, 0 },
@@ -37,15 +38,15 @@ input inputs[] = {
   { 'z',               1, B00000010, 0 }, // Button 5
   { 'x',               1, B00000001, 0 }, // Button 6
   
-  /* GPIO 12/Maxi Buttons 78 on Port D-46 */
-  { 'c',               2, B00010000, 0 }, // GPIO 1 / Button 7
-  { 'v',               2, B01000000, 0 }, // GPIO 2 / Button 8
+  /* GPIO 12/Maxi Buttons 78 on Port D-67 */
+  { 'c',               2, B01000000, 0 }, // GPIO 1 / Button 7
+  { 'v',               2, B10000000, 0 }, // GPIO 2 / Button 8
 
-  /* GPIO 3456 on Port D-7 B-456 */
-  { ' ',               2, B10000000, 0 }, // GPIO 3
-  { ' ',               0, B00010000, 0 }, // GPIO 4
-  { ' ',               0, B00100000, 0 }, // GPIO 5
-  { ' ',               0, B01000000, 0 }, // GPIO 6
+  /* GPIO 3456 on Port B-456 C-6 */
+  { ' ',               0, B00010000, 0 }, // GPIO 3
+  { ' ',               0, B00100000, 0 }, // GPIO 4
+  { ' ',               0, B01000000, 0 }, // GPIO 5
+  { ' ',               3, B01000000, 0 }, // GPIO 6
 
   /* Front/Side Buttons on Port D-0123 */
   { '1',               2, B00000001, 0 }, // 1UP Start
@@ -74,6 +75,7 @@ void setup() {
   */
   DDRB = DDRD = DDRF = B00000000; // set ports B, D, F to be inputs
   PORTB = PORTD = B11111111; // set the pullup resistors on ports B, D
+  PORTC = B01000000; // set the pullup resistors on port C
   PORTF = B11110011; // set the pullup resistors on port F
 }
 
@@ -82,7 +84,7 @@ void loop() {
     Check the state of each input, if it has changed then output the corresponding keypress
   */
   boolean changed = false;  // has any input changed?
-  char pinStates[3] = {PINB, PINF, PIND}; // read the current port states and store in 0, 1, 2 indexed array to match our port ids above
+  char pinStates[4] = {PINB, PINF, PIND, PINC}; // read the current port states and store in 0, 1, 2 indexed array to match our port ids above
 
   // loop through each input
   for(int i = 0; i < sizeof(inputs) / sizeof(input); i++)
