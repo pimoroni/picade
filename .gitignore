@@ -215,7 +215,7 @@ pip-log.txt
 .mr.developer.cfg
 
 # Eagle backup files
-eagle/*.b#?
-eagle/*.s#?
-eagle/*.l#?
-eagle/eagle.epf
+*/*.b#?
+*/*.s#?
+*/*.l#?
+*/eagle.epf
