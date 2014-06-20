@@ -3097,43 +3097,39 @@ We hope you find them useful - come see us at http://pimoroni.com
 <vertex x="0" y="1" curve="90"/>
 </polygon>
 </package>
-<package name="QFN20">
-<wire x1="-1.95" y1="-1.43438125" x2="-1.9431" y2="1.5494" width="0.2032" layer="51"/>
-<wire x1="-1.59511875" y1="1.9431" x2="1.43438125" y2="1.95" width="0.2032" layer="51"/>
-<wire x1="1.43438125" y1="1.95" x2="1.43438125" y2="-1.43438125" width="0.2032" layer="51"/>
-<wire x1="1.43438125" y1="-1.43438125" x2="-1.95" y2="-1.43438125" width="0.2032" layer="51"/>
-<wire x1="-1.6" y1="-1.43438125" x2="-1.95" y2="-1.43438125" width="0.2032" layer="21"/>
-<wire x1="-1.95" y1="-1.43438125" x2="-1.95" y2="-1.08438125" width="0.2032" layer="21"/>
-<wire x1="-1.95" y1="1.6" x2="-1.795059375" y2="1.756959375" width="0.2032" layer="21"/>
-<wire x1="-1.795059375" y1="1.756959375" x2="-1.6" y2="1.95" width="0.2032" layer="21"/>
-<wire x1="1.08438125" y1="1.95" x2="1.43438125" y2="1.95" width="0.2032" layer="21"/>
-<wire x1="1.43438125" y1="1.95" x2="1.43438125" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="1.43438125" y1="-1.08438125" x2="1.43438125" y2="-1.43438125" width="0.2032" layer="21"/>
-<wire x1="1.43438125" y1="-1.43438125" x2="1.08438125" y2="-1.43438125" width="0.2032" layer="21"/>
-<circle x="-2.1209" y="2.062478125" radius="0.208" width="0" layer="21"/>
-<smd name="1" x="-1.905" y="1.27" dx="0.6" dy="0.254" layer="1" roundness="25"/>
-<smd name="2" x="-1.905" y="0.762" dx="0.6" dy="0.254" layer="1" roundness="25"/>
-<smd name="3" x="-1.905" y="0.254" dx="0.6" dy="0.254" layer="1" roundness="25"/>
-<smd name="4" x="-1.905" y="-0.254" dx="0.6" dy="0.254" layer="1" roundness="25"/>
-<smd name="5" x="-1.905" y="-0.762" dx="0.6" dy="0.254" layer="1" roundness="25"/>
-<smd name="7" x="-1.27" y="-1.38938125" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R90"/>
-<smd name="8" x="-0.762" y="-1.38938125" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R90"/>
-<smd name="9" x="-0.254" y="-1.38938125" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R90"/>
-<smd name="10" x="0.254" y="-1.38938125" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R90"/>
-<smd name="11" x="0.762" y="-1.38938125" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R90"/>
-<smd name="14" x="1.38938125" y="-0.762" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R180"/>
-<smd name="15" x="1.38938125" y="-0.254" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R180"/>
-<smd name="16" x="1.38938125" y="0.254" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R180"/>
-<smd name="17" x="1.38938125" y="0.762" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R180"/>
-<smd name="18" x="1.38938125" y="1.27" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R180"/>
-<smd name="20" x="0.762" y="1.905" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R270"/>
-<smd name="21" x="0.254" y="1.905" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R270"/>
-<smd name="22" x="-0.254" y="1.905" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R270"/>
-<smd name="23" x="-0.762" y="1.905" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R270"/>
-<smd name="24" x="-1.27" y="1.905" dx="0.6" dy="0.254" layer="1" roundness="25" rot="R270"/>
-<smd name="GND" x="-0.2641625" y="0.264159375" dx="1.778" dy="1.778" layer="1" roundness="25"/>
-<text x="-2.286" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.021840625" y="-3.510278125" size="1.27" layer="27">&gt;VALUE</text>
+<package name="TPA2016">
+<wire x1="-1.8" y1="-2.13438125" x2="-2.15" y2="-2.13438125" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="-2.13438125" x2="-2.15" y2="-1.78438125" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="1.7" x2="-1.995059375" y2="1.856959375" width="0.2032" layer="21"/>
+<wire x1="-1.995059375" y1="1.856959375" x2="-1.8" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="1.68438125" y1="2.05" x2="2.03438125" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="2.03438125" y1="2.05" x2="2.03438125" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="2.03438125" y1="-1.78438125" x2="2.03438125" y2="-2.13438125" width="0.2032" layer="21"/>
+<wire x1="2.03438125" y1="-2.13438125" x2="1.68438125" y2="-2.13438125" width="0.2032" layer="21"/>
+<circle x="-2.5209" y="2.362478125" radius="0.208" width="0" layer="21"/>
+<smd name="1" x="-2.005" y="0.97" dx="0.8" dy="0.23" layer="1" roundness="25"/>
+<smd name="2" x="-2.005" y="0.462" dx="0.8" dy="0.23" layer="1" roundness="50"/>
+<smd name="3" x="-2.005" y="-0.046" dx="0.8" dy="0.23" layer="1" roundness="50"/>
+<smd name="4" x="-2.005" y="-0.554" dx="0.8" dy="0.23" layer="1" roundness="50"/>
+<smd name="5" x="-2.005" y="-1.062" dx="0.8" dy="0.23" layer="1" roundness="50"/>
+<smd name="7" x="-1.07" y="-1.98938125" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R90"/>
+<smd name="8" x="-0.562" y="-1.98938125" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R90"/>
+<smd name="9" x="-0.054" y="-1.98938125" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R90"/>
+<smd name="10" x="0.454" y="-1.98938125" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R90"/>
+<smd name="11" x="0.962" y="-1.98938125" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R90"/>
+<smd name="14" x="1.88938125" y="-1.062" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R180"/>
+<smd name="15" x="1.88938125" y="-0.554" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R180"/>
+<smd name="16" x="1.88938125" y="-0.046" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R180"/>
+<smd name="17" x="1.88938125" y="0.462" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R180"/>
+<smd name="18" x="1.88938125" y="0.97" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R180"/>
+<smd name="20" x="0.962" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
+<smd name="21" x="0.454" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
+<smd name="22" x="-0.054" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
+<smd name="23" x="-0.562" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
+<smd name="24" x="-1.07" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
+<smd name="GND" x="-0.0641625" y="-0.035840625" dx="2.6" dy="2.6" layer="1" roundness="10" stop="no"/>
+<text x="-2.686" y="3.14" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.421840625" y="-4.210278125" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TQFP44">
 <wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
@@ -3576,7 +3572,7 @@ We hope you find them useful - come see us at http://pimoroni.com
 <gate name="G$1" symbol="TPA2016D2" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="QFN20">
+<device name="" package="TPA2016">
 <connects>
 <connect gate="G$1" pin="AGND" pad="3"/>
 <connect gate="G$1" pin="AVDD" pad="16"/>
@@ -13140,9 +13136,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value="gullwing-switch"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="10KR"/>
-<part name="U$3" library="pimoroni" deviceset="FIDUCIAL" device="2MM"/>
-<part name="U$1" library="pimoroni" deviceset="FIDUCIAL" device="2MM"/>
-<part name="U$2" library="pimoroni" deviceset="FIDUCIAL" device="2MM"/>
+<part name="U$3" library="pimoroni" deviceset="FIDUCIAL" device="1MM" value="FIDUCIAL1MM"/>
+<part name="U$1" library="pimoroni" deviceset="FIDUCIAL" device="1MM" value="FIDUCIAL1MM"/>
+<part name="U$2" library="pimoroni" deviceset="FIDUCIAL" device="1MM" value="FIDUCIAL1MM"/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="10KR"/>
 <part name="HEADPHONES" library="pimoroni" deviceset="AUDIO-JACK2" device="SMD" value="stereo-jack-switched"/>
 <part name="USB" library="pimoroni" deviceset="USB-MICROB" device=""/>
@@ -14015,6 +14011,11 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <label x="320.04" y="195.58" size="1.778" layer="95"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <pinref part="UTILITY" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="ATMEGA32U4" gate="G$1" pin="PD4(ICP1/ADC8)"/>
+<wire x1="99.06" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<label x="99.06" y="27.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="P1JCOM" class="0">
