@@ -3127,9 +3127,22 @@ We hope you find them useful - come see us at http://pimoroni.com
 <smd name="22" x="-0.054" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
 <smd name="23" x="-0.562" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
 <smd name="24" x="-1.07" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
-<smd name="GND" x="-0.0641625" y="-0.035840625" dx="2.6" dy="2.6" layer="1" roundness="10" stop="no"/>
+<smd name="GND" x="-0.0641625" y="-0.035840625" dx="2.6" dy="2.6" layer="1" cream="no"/>
 <text x="-2.686" y="3.14" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.421840625" y="-4.210278125" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="P$1" x="-0.8" y="0.7" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$2" x="-0.05" y="0.7" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$3" x="0.7" y="0.7" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$4" x="-0.8" y="-0.05" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$5" x="-0.05" y="-0.05" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$6" x="0.7" y="-0.05" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$7" x="0.7" y="-0.75" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$8" x="-0.05" y="-0.8" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$9" x="-0.8" y="-0.8" drill="0.3" stop="no" thermals="no"/>
+<rectangle x1="0" y1="0.05" x2="1.1" y2="1.15" layer="31"/>
+<rectangle x1="-1.25" y1="0.05" x2="-0.15" y2="1.15" layer="31"/>
+<rectangle x1="-1.25" y1="-1.25" x2="-0.15" y2="-0.15" layer="31"/>
+<rectangle x1="0" y1="-1.25" x2="1.1" y2="-0.15" layer="31"/>
 </package>
 <package name="TQFP44">
 <wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
@@ -13181,7 +13194,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C22" library="resistor" deviceset="C-EU" device="C0603K" value="1nF"/>
 <part name="C23" library="resistor" deviceset="C-EU" device="C0603K" value="1nF"/>
 <part name="RN1" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="1KR"/>
-<part name="C20" library="resistor" deviceset="C-EU" device="C0805K"/>
+<part name="C20" library="resistor" deviceset="C-EU" device="C0805K" value="10uF"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -13698,6 +13711,7 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <segment>
 <pinref part="ATMEGA32U4" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
 <wire x1="81.28" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<label x="99.06" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="D+" class="0">

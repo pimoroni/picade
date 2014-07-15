@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -15547,9 +15547,22 @@ We hope you find them useful - come see us at http://pimoroni.com
 <smd name="22" x="-0.054" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
 <smd name="23" x="-0.562" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
 <smd name="24" x="-1.07" y="1.905" dx="0.8" dy="0.23" layer="1" roundness="50" rot="R270"/>
-<smd name="GND" x="-0.0641625" y="-0.035840625" dx="2.6" dy="2.6" layer="1" roundness="10" stop="no"/>
+<smd name="GND" x="-0.0641625" y="-0.035840625" dx="2.6" dy="2.6" layer="1" cream="no"/>
 <text x="-2.686" y="3.14" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.421840625" y="-4.210278125" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="P$1" x="-0.8" y="0.7" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$2" x="-0.05" y="0.7" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$3" x="0.7" y="0.7" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$4" x="-0.8" y="-0.05" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$5" x="-0.05" y="-0.05" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$6" x="0.7" y="-0.05" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$7" x="0.7" y="-0.75" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$8" x="-0.05" y="-0.8" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$9" x="-0.8" y="-0.8" drill="0.3" stop="no" thermals="no"/>
+<rectangle x1="0" y1="0.05" x2="1.1" y2="1.15" layer="31"/>
+<rectangle x1="-1.25" y1="0.05" x2="-0.15" y2="1.15" layer="31"/>
+<rectangle x1="-1.25" y1="-1.25" x2="-0.15" y2="-0.15" layer="31"/>
+<rectangle x1="0" y1="-1.25" x2="1.1" y2="-0.15" layer="31"/>
 </package>
 <package name="TQFP44">
 <wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
@@ -17956,14 +17969,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+<designrules name="pimoroni">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -17986,10 +17992,10 @@ design rules under a new name.</description>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="20mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="18mil"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -17999,15 +18005,15 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="12mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="12mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="10mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -18020,8 +18026,8 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="1mil"/>
+<param name="mlMaxStopFrame" value="1mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="25mil"/>
@@ -18297,7 +18303,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="61.321" y="32.572" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="59.97" y="31.567" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
-<element name="C20" library="resistor" package="C0805K" value="" x="56.997" y="4.728" smashed="yes">
+<element name="C20" library="resistor" package="C0805K" value="10uF" x="56.997" y="4.728" smashed="yes">
 <attribute name="NAME" x="58.085" y="3.471" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="55.997" y="2.828" size="1.016" layer="27"/>
 </element>
@@ -19315,27 +19321,8 @@ design rules under a new name.</description>
 <approved hash="7,39,d809a76bd54aac2a"/>
 <approved hash="7,39,49e928ca22fb9e4a"/>
 <approved hash="7,39,03961be397f7bb77"/>
-<approved hash="18,29,2a3efcdca43291a3"/>
-<approved hash="18,29,6420740c440d3071"/>
-<approved hash="18,29,a9c85219d3387674"/>
-<approved hash="18,29,6eae298765cfa3da"/>
 <approved hash="18,29,d64898d898c5d655"/>
-<approved hash="18,29,6ee7548d3949e02f"/>
-<approved hash="18,29,fa45ac02cc652c3e"/>
-<approved hash="18,29,758b4a0096657ea0"/>
-<approved hash="18,29,2889593cf4dffe35"/>
-<approved hash="18,29,9db281c4c27fd26c"/>
-<approved hash="18,29,9cb85ff45f986159"/>
 <approved hash="18,29,21589fc89fcb215b"/>
-<approved hash="18,29,2ae89ac73e573986"/>
-<approved hash="18,29,37d27b9a68d5de5d"/>
-<approved hash="18,29,be5e67a7c21c5f21"/>
-<approved hash="18,29,0021e6cde113463f"/>
-<approved hash="18,29,f03c7a6d1f81b150"/>
-<approved hash="18,29,14ee27c9a143b6e4"/>
-<approved hash="18,29,fcb0af9a5fe90ae5"/>
-<approved hash="19,1,064e09b010631f9d"/>
-<approved hash="19,1,1993ed6dedf91907"/>
 </errors>
 </board>
 </drawing>
