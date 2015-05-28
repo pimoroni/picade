@@ -2155,51 +2155,6 @@ Here's a mixture of Eagle parts we couldn't find anywhere else - so we made them
 We hope you find them useful - come see us at http://pimoroni.com
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes.</description>
 <packages>
-<package name="USB-MICROB">
-<description>Micro USB Package</description>
-<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="1.25" x2="-3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="1.25" x2="3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.127" layer="51"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="1.45" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="2.85" x2="-2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
-<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
-<smd name="VBUS" x="-1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="GND" x="1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D-" x="-0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D+" x="0" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="MT1" x="-3.2512" y="2.2352" dx="1.546" dy="1.9" layer="1"/>
-<smd name="MT2" x="3.2258" y="2.286" dx="1.546" dy="1.9" layer="1" rot="R180"/>
-<text x="-4.14" y="3.714" size="0.762" layer="25">&gt;NAME</text>
-<text x="-3.4544" y="-3.9116" size="0.762" layer="27">&gt;VALUE</text>
-<smd name="P$1" x="-1.1938" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="P$2" x="1.1684" y="0" dx="1.9" dy="1.9" layer="1"/>
-<pad name="P$3" x="-3.5052" y="-0.0508" drill="1.2" diameter="1.6"/>
-<pad name="P$4" x="3.4798" y="0" drill="1.2" diameter="1.6"/>
-<smd name="P$5" x="-3.5052" y="-0.0508" dx="1.9" dy="1.9" layer="1" roundness="100"/>
-<smd name="P$6" x="3.4798" y="0.0254" dx="1.9" dy="1.9" layer="1" roundness="100"/>
-</package>
 <package name="AUDIO-JACK-3.5MM-SMD">
 <wire x1="3.9878" y1="-3.2512" x2="10.1346" y2="-3.2512" width="0.254" layer="21"/>
 <wire x1="14.5288" y1="-0.635" x2="14.5288" y2="-3.302" width="0.254" layer="21"/>
@@ -2416,16 +2371,6 @@ We hope you find them useful - come see us at http://pimoroni.com
 </package>
 </packages>
 <symbols>
-<symbol name="USB">
-<wire x1="5.08" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="8.89" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="D+" x="-2.54" y="7.62" visible="pad" length="short"/>
-<pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
-<pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
-<pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
-</symbol>
 <symbol name="AUDIO-JACK2">
 <wire x1="-1.27" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
 <wire x1="0" y1="-3.81" x2="1.27" y2="-5.08" width="0.1524" layer="94"/>
@@ -2542,24 +2487,6 @@ We hope you find them useful - come see us at http://pimoroni.com
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB-MICROB">
-<gates>
-<gate name="G$1" symbol="USB" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="USB-MICROB">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND MT1 MT2 P$1 P$2 P$3 P$4"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AUDIO-JACK2">
 <description>Stereo audio jack with bypass switches.</description>
 <gates>
@@ -12342,6 +12269,139 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="pimoroni-connectors">
+<packages>
+<package name="MICROB-USB">
+<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="1.25" x2="-3.4" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="1.25" x2="3.4" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.127" layer="51"/>
+<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="1.45" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="2.85" x2="-2.2" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
+<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
+<smd name="VBUS" x="-1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="GND" x="1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="DM" x="-0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="DP" x="0" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="SH1" x="-3.2512" y="2.2352" dx="1.546" dy="1.9" layer="1"/>
+<smd name="SH2" x="3.2258" y="2.286" dx="1.546" dy="1.9" layer="1" rot="R180"/>
+<text x="0.005" y="4.049" size="0.8128" layer="25" font="vector" ratio="14" align="bottom-center">USB</text>
+<smd name="SH6" x="-1.1938" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SH5" x="1.1684" y="0" dx="1.9" dy="1.9" layer="1"/>
+<pad name="SH8" x="-3.5052" y="-0.0508" drill="1.2" diameter="1.6"/>
+<pad name="SH3" x="3.4798" y="0" drill="1.2" diameter="1.6"/>
+<smd name="SH7" x="-3.5052" y="-0.0508" dx="1.9" dy="1.9" layer="1" roundness="100"/>
+<smd name="SH4" x="3.4798" y="0.0254" dx="1.9" dy="1.9" layer="1" roundness="100"/>
+</package>
+<package name="ZX80-B-5P">
+<wire x1="10.3" y1="-2.1" x2="10.3" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="10.3" y1="-2.6" x2="9.8" y2="-3.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="9.8" y1="-3.1" x2="-9.8" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-9.8" y1="-3.1" x2="-10.3" y2="-2.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-10.3" y1="-2.6" x2="-10.3" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="-2.1" x2="-9.8" y2="-1.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-9.8" y1="-1.6" x2="-8.2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-8.2" y1="-1.6" x2="-6.7" y2="-0.1" width="0.127" layer="21" curve="90"/>
+<wire x1="-6.7" y1="-0.1" x2="-6.7" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-6.7" y1="0.1" x2="-8.2" y2="1.6" width="0.127" layer="21" curve="90"/>
+<wire x1="-8.2" y1="1.6" x2="-9.8" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-9.8" y1="1.6" x2="-10.3" y2="2.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-10.3" y1="2.1" x2="-10.3" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="2.6" x2="-9.8" y2="3.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-9.8" y1="3.1" x2="9.8" y2="3.1" width="0.127" layer="21"/>
+<wire x1="9.8" y1="3.1" x2="10.3" y2="2.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="10.3" y1="2.6" x2="10.3" y2="2.1" width="0.127" layer="21"/>
+<wire x1="10.3" y1="2.1" x2="9.8" y2="1.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="9.8" y1="1.6" x2="8.2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="8.2" y1="1.6" x2="6.7" y2="0.1" width="0.127" layer="21" curve="90"/>
+<wire x1="6.7" y1="0.1" x2="6.7" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="6.7" y1="-0.1" x2="8.2" y2="-1.6" width="0.127" layer="21" curve="90"/>
+<wire x1="8.2" y1="-1.6" x2="9.8" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="9.8" y1="-1.6" x2="10.3" y2="-2.1" width="0.127" layer="21" curve="-90"/>
+<hole x="-8.3" y="0" drill="2.2"/>
+<hole x="8.3" y="0" drill="2.2"/>
+<smd name="D+" x="0" y="-2.3" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<smd name="D-" x="-0.65" y="-2.3" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<smd name="VBUS" x="-1.3" y="-2.3" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<smd name="ID" x="0.65" y="-2.3" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<smd name="GND" x="1.3" y="-2.3" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<pad name="P$6" x="-3.3" y="-2.3" drill="1.2"/>
+<pad name="P$7" x="3.3" y="-2.3" drill="1.2"/>
+<pad name="P$8" x="-3.3" y="0.7" drill="0.9"/>
+<pad name="P$9" x="3.3" y="0.7" drill="0.9"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB">
+<pin name="VBUS" x="7.62" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="DM" x="7.62" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="DP" x="7.62" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="ID" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="-5.08" y="-2.54" size="1.27" layer="94" rot="R90" align="bottom-center">USB</text>
+<pin name="SHIELD" x="7.62" y="-10.16" visible="pin" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB">
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MICROB" package="MICROB-USB">
+<connects>
+<connect gate="G$1" pin="DM" pad="DM"/>
+<connect gate="G$1" pin="DP" pad="DP"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2 SH3 SH4 SH5 SH6 SH7 SH8"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ZX80-B-5P" package="ZX80-B-5P">
+<connects>
+<connect gate="G$1" pin="DM" pad="D-"/>
+<connect gate="G$1" pin="DP" pad="D+"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="SHIELD" pad="P$6 P$7 P$8 P$9"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12380,7 +12440,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$2" library="pimoroni" deviceset="FIDUCIAL" device="1MM" value="FIDUCIAL1MM"/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="10KR"/>
 <part name="HEADPHONES" library="pimoroni" deviceset="AUDIO-JACK2" device="SMD" value="stereo-jack-switched"/>
-<part name="USB" library="pimoroni" deviceset="USB-MICROB" device=""/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0603" value="470KR"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0603" value="47KR"/>
@@ -12423,6 +12482,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$6" library="pimoroni-headers" deviceset="7-WAY" device=""/>
 <part name="U$7" library="pimoroni-headers" deviceset="7-WAY" device=""/>
 <part name="U$8" library="pimoroni-headers" deviceset="4-WAY" device=""/>
+<part name="U$13" library="pimoroni-connectors" deviceset="USB" device="MICROB"/>
+<part name="C17" library="resistor" deviceset="C-EU" device="C0603K" value="4.7nF"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12438,11 +12501,11 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <text x="198.12" y="154.94" size="2.54" layer="97">Amplifier</text>
 <text x="12.7" y="99.06" size="2.54" layer="97">Controller</text>
 <text x="284.48" y="55.88" size="2.54" layer="97">Speakers</text>
-<text x="12.7" y="213.36" size="2.54" layer="97">USB / Power</text>
+<text x="12.7" y="215.9" size="2.54" layer="97">USB / Power</text>
 <text x="12.7" y="177.8" size="2.54" layer="97">Power indicator</text>
 <text x="121.92" y="58.42" size="2.54" layer="97">Decoupling</text>
-<text x="78.74" y="213.36" size="2.54" layer="97">Reset</text>
-<text x="78.74" y="182.88" size="2.54" layer="97">ICSP</text>
+<text x="81.28" y="162.56" size="2.54" layer="97">Reset</text>
+<text x="81.28" y="132.08" size="2.54" layer="97">ICSP</text>
 <text x="121.92" y="99.06" size="2.54" layer="97">Crystal</text>
 <text x="12.7" y="152.4" size="2.54" layer="97">RX/TX indicator</text>
 <text x="12.7" y="121.92" size="2.54" layer="97">Bootloader indicator</text>
@@ -12452,32 +12515,32 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </plain>
 <instances>
 <instance part="ATMEGA32U4" gate="G$1" x="55.88" y="48.26"/>
-<instance part="R5" gate="G$1" x="43.18" y="200.66"/>
-<instance part="R6" gate="G$1" x="53.34" y="198.12"/>
-<instance part="GND1" gate="1" x="22.86" y="193.04"/>
+<instance part="R5" gate="G$1" x="48.26" y="205.74"/>
+<instance part="R6" gate="G$1" x="58.42" y="203.2"/>
+<instance part="GND1" gate="1" x="27.94" y="187.96"/>
 <instance part="C9" gate="G$1" x="25.4" y="53.34" rot="R90"/>
 <instance part="C11" gate="G$1" x="129.54" y="81.28" rot="R180"/>
 <instance part="C12" gate="G$1" x="144.78" y="81.28" rot="R180"/>
 <instance part="TX" gate="G$1" x="25.4" y="144.78" rot="MR270"/>
 <instance part="RX" gate="G$1" x="25.4" y="137.16" rot="MR270"/>
 <instance part="ON" gate="G$1" x="33.02" y="170.18" rot="R90"/>
-<instance part="ICSP/RESET" gate="1" x="99.06" y="172.72" rot="R180"/>
+<instance part="ICSP/RESET" gate="1" x="101.6" y="121.92" rot="R180"/>
 <instance part="C8" gate="G$1" x="25.4" y="45.72" rot="R90"/>
 <instance part="GND7" gate="1" x="137.16" y="71.12"/>
-<instance part="GND8" gate="1" x="109.22" y="165.1"/>
+<instance part="GND8" gate="1" x="111.76" y="114.3"/>
 <instance part="GND9" gate="1" x="30.48" y="12.7"/>
 <instance part="GND11" gate="1" x="114.3" y="68.58"/>
 <instance part="LINEIN" gate="G$1" x="289.56" y="144.78" smashed="yes">
 <attribute name="NAME" x="284.48" y="147.828" size="1.778" layer="95"/>
 </instance>
 <instance part="GND12" gate="1" x="40.64" y="165.1"/>
-<instance part="F1" gate="G$1" x="53.34" y="203.2"/>
+<instance part="F1" gate="G$1" x="58.42" y="208.28"/>
 <instance part="16MHZ" gate="G$1" x="137.16" y="91.44"/>
-<instance part="RESET" gate="G$1" x="106.68" y="205.74" smashed="yes">
-<attribute name="NAME" x="104.14" y="208.28" size="1.778" layer="95"/>
+<instance part="RESET" gate="G$1" x="109.22" y="154.94" smashed="yes">
+<attribute name="NAME" x="106.68" y="157.48" size="1.778" layer="95"/>
 </instance>
-<instance part="GND18" gate="1" x="114.3" y="200.66"/>
-<instance part="R7" gate="G$1" x="91.44" y="205.74"/>
+<instance part="GND18" gate="1" x="116.84" y="149.86"/>
+<instance part="R7" gate="G$1" x="93.98" y="154.94"/>
 <instance part="U$3" gate="G$1" x="378.46" y="251.46" rot="R90"/>
 <instance part="U$1" gate="G$1" x="363.22" y="251.46" rot="R90"/>
 <instance part="U$2" gate="G$1" x="370.84" y="251.46" rot="R90"/>
@@ -12485,7 +12548,6 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <instance part="HEADPHONES" gate="G$1" x="203.2" y="38.1" smashed="yes">
 <attribute name="NAME" x="198.12" y="43.688" size="1.778" layer="95"/>
 </instance>
-<instance part="USB" gate="G$1" x="17.78" y="205.74" rot="R180"/>
 <instance part="R1" gate="G$1" x="251.46" y="38.1"/>
 <instance part="GND4" gate="1" x="259.08" y="33.02"/>
 <instance part="R2" gate="G$1" x="236.22" y="40.64"/>
@@ -12519,7 +12581,7 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <instance part="RN1" gate="B" x="25.4" y="114.3" rot="R180"/>
 <instance part="RN1" gate="D" x="38.1" y="137.16"/>
 <instance part="C2" gate="G$1" x="223.52" y="83.82"/>
-<instance part="L5" gate="G$1" x="35.56" y="203.2"/>
+<instance part="L5" gate="G$1" x="40.64" y="208.28"/>
 <instance part="U$4" gate="G$1" x="231.14" y="129.54"/>
 <instance part="C14" gate="G$1" x="205.74" y="132.08" rot="R90"/>
 <instance part="GND13" gate="1" x="152.4" y="182.88"/>
@@ -12531,6 +12593,10 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <instance part="U$6" gate="G$1" x="170.18" y="195.58" rot="R180"/>
 <instance part="U$7" gate="G$1" x="284.48" y="195.58" rot="R180"/>
 <instance part="U$8" gate="G$1" x="314.96" y="40.64" rot="R180"/>
+<instance part="U$13" gate="G$1" x="17.78" y="203.2"/>
+<instance part="C17" gate="G$1" x="96.52" y="203.2"/>
+<instance part="R4" gate="G$1" x="109.22" y="200.66" rot="R90"/>
+<instance part="GND17" gate="1" x="104.14" y="187.96"/>
 </instances>
 <busses>
 </busses>
@@ -12538,23 +12604,23 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="200.66" x2="38.1" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="D-"/>
+<wire x1="25.4" y1="205.74" x2="43.18" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="DM"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="D+"/>
+<wire x1="25.4" y1="203.2" x2="53.34" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="DP"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="22.86" y1="205.74" x2="22.86" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="205.74" x2="22.86" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="GND"/>
+<wire x1="25.4" y1="198.12" x2="27.94" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="198.12" x2="27.94" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="ATMEGA32U4" gate="G$1" pin="UGND"/>
@@ -12594,8 +12660,8 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <segment>
 <pinref part="ICSP/RESET" gate="1" pin="6"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="106.68" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="170.18" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="119.38" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -12611,9 +12677,9 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </segment>
 <segment>
 <pinref part="RESET" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="114.3" y1="205.74" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="154.94" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -12720,6 +12786,17 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
 </segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="195.58" x2="109.22" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="193.04" x2="104.14" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="193.04" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="193.04" x2="104.14" y2="190.5" width="0.1524" layer="91"/>
+<junction x="104.14" y="193.04"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="XTAL2" class="0">
 <segment>
@@ -12768,11 +12845,11 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <net name="RESET" class="0">
 <segment>
 <pinref part="RESET" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="205.74" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="205.74" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="205.74" x2="99.06" y2="195.58" width="0.1524" layer="91"/>
-<junction x="99.06" y="205.74"/>
-<label x="99.06" y="195.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="104.14" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="154.94" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
+<junction x="101.6" y="154.94"/>
+<label x="101.6" y="144.78" size="1.778" layer="95" rot="R90"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -12782,8 +12859,8 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </segment>
 <segment>
 <pinref part="ICSP/RESET" gate="1" pin="5"/>
-<wire x1="78.74" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
-<label x="78.74" y="170.18" size="1.778" layer="95"/>
+<wire x1="81.28" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="81.28" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUTL-" class="0">
@@ -12837,8 +12914,8 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="ICSP/RESET" gate="1" pin="4"/>
-<wire x1="121.92" y1="172.72" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
-<label x="121.92" y="172.72" size="1.778" layer="95" rot="MR0"/>
+<wire x1="124.46" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<label x="124.46" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="ATMEGA32U4" gate="G$1" pin="PB2(PDI/MOSI)"/>
@@ -12848,9 +12925,9 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<wire x1="20.32" y1="203.2" x2="30.48" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="VBUS"/>
+<wire x1="25.4" y1="208.28" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="L5" gate="G$1" pin="1"/>
+<pinref part="U$13" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12917,8 +12994,8 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="198.12" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
-<label x="66.04" y="198.12" size="1.778" layer="95" rot="MR0"/>
+<wire x1="63.5" y1="203.2" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
+<label x="71.12" y="203.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -12929,8 +13006,8 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="200.66" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
-<label x="66.04" y="200.66" size="1.778" layer="95" rot="MR0"/>
+<wire x1="53.34" y1="205.74" x2="71.12" y2="205.74" width="0.1524" layer="91"/>
+<label x="71.12" y="205.74" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12948,8 +13025,8 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
-<label x="66.04" y="203.2" size="1.778" layer="95" rot="MR0"/>
+<wire x1="71.12" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
+<label x="71.12" y="208.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
@@ -13008,14 +13085,14 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <label x="17.78" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="205.74" x2="78.74" y2="205.74" width="0.1524" layer="91"/>
-<label x="78.74" y="205.74" size="1.778" layer="95"/>
+<wire x1="88.9" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
+<label x="81.28" y="154.94" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ICSP/RESET" gate="1" pin="2"/>
-<wire x1="106.68" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
-<label x="121.92" y="175.26" size="1.778" layer="95" rot="MR0"/>
+<wire x1="109.22" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
+<label x="124.46" y="124.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="TX" gate="G$1" pin="A"/>
@@ -13065,16 +13142,16 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <label x="99.06" y="48.26" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="175.26" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="ICSP/RESET" gate="1" pin="1"/>
-<label x="78.74" y="175.26" size="1.778" layer="95"/>
+<label x="81.28" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<wire x1="78.74" y1="172.72" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="ICSP/RESET" gate="1" pin="3"/>
-<label x="78.74" y="172.72" size="1.778" layer="95"/>
+<label x="81.28" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ATMEGA32U4" gate="G$1" pin="PB1(SCK)"/>
@@ -13267,7 +13344,7 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <pinref part="L5" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="203.2" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="208.28" x2="53.34" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUP" class="0">
@@ -13473,6 +13550,25 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <wire x1="147.32" y1="195.58" x2="160.02" y2="195.58" width="0.1524" layer="91"/>
 <label x="147.32" y="195.58" size="1.778" layer="95"/>
 <pinref part="U$6" gate="G$1" pin="P$4"/>
+</segment>
+</net>
+<net name="SHIELD" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="SHIELD"/>
+<wire x1="25.4" y1="193.04" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
+<label x="43.18" y="193.04" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="208.28" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="208.28" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="208.28" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="208.28" x2="86.36" y2="208.28" width="0.1524" layer="91"/>
+<junction x="96.52" y="208.28"/>
+<label x="86.36" y="208.28" size="1.778" layer="95"/>
+<wire x1="109.22" y1="208.28" x2="121.92" y2="208.28" width="0.1524" layer="91"/>
+<junction x="109.22" y="208.28"/>
 </segment>
 </net>
 </nets>
