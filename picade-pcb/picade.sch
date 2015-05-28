@@ -12306,7 +12306,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
 <smd name="SH1" x="-3.2512" y="2.2352" dx="1.546" dy="1.9" layer="1"/>
 <smd name="SH2" x="3.2258" y="2.286" dx="1.546" dy="1.9" layer="1" rot="R180"/>
-<text x="0.005" y="4.049" size="0.8128" layer="25" font="vector" ratio="14" align="bottom-center">USB</text>
 <smd name="SH6" x="-1.1938" y="0" dx="1.9" dy="1.9" layer="1"/>
 <smd name="SH5" x="1.1684" y="0" dx="1.9" dy="1.9" layer="1"/>
 <pad name="SH8" x="-3.5052" y="-0.0508" drill="1.2" diameter="1.6"/>

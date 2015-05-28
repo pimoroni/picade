@@ -15870,7 +15870,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
 <smd name="SH1" x="-3.2512" y="2.2352" dx="1.546" dy="1.9" layer="1"/>
 <smd name="SH2" x="3.2258" y="2.286" dx="1.546" dy="1.9" layer="1" rot="R180"/>
-<text x="0.005" y="4.049" size="0.8128" layer="25" font="vector" ratio="14" align="bottom-center">USB</text>
 <smd name="SH6" x="-1.1938" y="0" dx="1.9" dy="1.9" layer="1"/>
 <smd name="SH5" x="1.1684" y="0" dx="1.9" dy="1.9" layer="1"/>
 <pad name="SH8" x="-3.5052" y="-0.0508" drill="1.2" diameter="1.6"/>
@@ -16128,14 +16127,14 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <element name="C16" library="resistor" package="C0805K" value="100nF" x="53.9658" y="23.0198" smashed="yes" rot="R90"/>
 <element name="C3" library="resistor" package="C0603K" value="100nF" x="37.0362" y="34.5148" smashed="yes"/>
 <element name="U$5" library="pimoroni-headers" package="1X5-3.5MM-SCREWTERMINAL" value="5-WAY" x="17" y="56"/>
-<element name="U$6" library="pimoroni-headers" package="1X7-3.5MM-SCREWTERMINAL" value="7-WAY" x="22" y="4" rot="R180"/>
+<element name="U$6" library="pimoroni-headers" package="1X7-3.5MM-SCREWTERMINAL" value="7-WAY" x="20.5486" y="4.0386" rot="R180"/>
 <element name="U$7" library="pimoroni-headers" package="1X7-3.5MM-SCREWTERMINAL" value="7-WAY" x="40" y="56"/>
 <element name="U$8" library="pimoroni-headers" package="1X4-3.5MM-SCREWTERMINAL" value="4-WAY" x="66" y="15.75" rot="R270"/>
 <element name="U$9" library="pimoroni-misc" package="M3-MOUNTING-HOLE" value="" x="4" y="56"/>
 <element name="U$10" library="pimoroni-misc" package="M3-MOUNTING-HOLE" value="" x="4" y="4"/>
 <element name="U$11" library="pimoroni-misc" package="M3-MOUNTING-HOLE" value="" x="66" y="4"/>
 <element name="U$12" library="pimoroni-misc" package="M3-MOUNTING-HOLE" value="" x="66" y="56"/>
-<element name="U$13" library="pimoroni-connectors" package="MICROB-USB" value="USBMICROB" x="68.4352" y="47.9552" rot="R90"/>
+<element name="U$13" library="pimoroni-connectors" package="MICROB-USB" value="USBMICROB" x="68.4352" y="47.9552" smashed="yes" rot="R90"/>
 <element name="C17" library="resistor" package="C0603K" value="4.7nF" x="64.9808" y="41.0464" smashed="yes"/>
 <element name="R4" library="resistor" package="R0603" value="1M" x="60.9168" y="41.0464" smashed="yes"/>
 </elements>
@@ -16280,9 +16279,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="ATMEGA32U4" pad="22"/>
 <contactref element="RN1" pad="6"/>
 <wire x1="23.983925" y1="38.998290625" x2="23.992434375" y2="38.8798" width="0.2032" layer="1"/>
-<wire x1="23.992434375" y1="38.8798" x2="22.3172" y2="38.9814" width="0.2032" layer="1"/>
-<via x="22.3172" y="38.9814" extent="1-16" drill="0.5"/>
-<wire x1="22.3172" y1="38.9814" x2="25.8986" y2="42.5628" width="0.2032" layer="16"/>
+<wire x1="23.992434375" y1="38.8798" x2="22.2156" y2="38.8798" width="0.2032" layer="1"/>
+<via x="22.2156" y="38.8798" extent="1-16" drill="0.5"/>
+<wire x1="22.2156" y1="38.8798" x2="25.8986" y2="42.5628" width="0.2032" layer="16"/>
 <wire x1="25.8986" y1="42.5628" x2="34.052" y2="42.5628" width="0.2032" layer="16"/>
 <wire x1="34.052" y1="42.5628" x2="34.6616" y2="43.1724" width="0.2032" layer="16"/>
 <wire x1="34.6616" y1="43.1724" x2="34.687" y2="43.1216" width="0.2032" layer="16"/>
@@ -16660,7 +16659,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="29.583925" y1="27.398290625" x2="29.583925" y2="26.579125" width="0.2032" layer="1"/>
 <wire x1="29.583925" y1="26.579125" x2="28.4048" y2="25.4" width="0.2032" layer="1"/>
 <wire x1="28.4048" y1="25.4" x2="28.4048" y2="4.3452" width="0.2032" layer="1"/>
-<wire x1="28.4048" y1="4.3452" x2="29" y2="3.75" width="0.2032" layer="1"/>
+<wire x1="28.4048" y1="4.3452" x2="27.5486" y2="3.7886" width="0.2032" layer="1"/>
 </signal>
 <signal name="BUTTON5">
 <contactref element="ATMEGA32U4" pad="40"/>
@@ -16669,8 +16668,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="28.783925" y1="26.388725" x2="27.9984" y2="25.6032" width="0.2032" layer="1"/>
 <wire x1="27.9984" y1="25.6032" x2="27.9984" y2="12.5984" width="0.2032" layer="1"/>
 <wire x1="27.9984" y1="12.5984" x2="25.3568" y2="9.9568" width="0.2032" layer="1"/>
-<wire x1="25.3568" y1="9.9568" x2="25.3568" y2="4.3932" width="0.2032" layer="1"/>
-<wire x1="25.3568" y1="4.3932" x2="25.5" y2="4.25" width="0.2032" layer="1"/>
+<wire x1="25.3568" y1="9.9568" x2="24.036" y2="8.6604" width="0.2032" layer="1"/>
+<wire x1="24.036" y1="8.6604" x2="24.0486" y2="4.2886" width="0.2032" layer="1"/>
 </signal>
 <signal name="RIGHT">
 <contactref element="ATMEGA32U4" pad="30"/>
@@ -16970,8 +16969,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="25.583925" y1="26.595275" x2="26.3728" y2="25.8064" width="0.2032" layer="1"/>
 <wire x1="26.3728" y1="25.8064" x2="26.3728" y2="13.4112" width="0.2032" layer="1"/>
 <wire x1="26.3728" y1="13.4112" x2="19.464" y2="6.5024" width="0.2032" layer="1"/>
-<wire x1="19.464" y1="6.5024" x2="13.7524" y2="6.5024" width="0.2032" layer="1"/>
-<wire x1="13.7524" y1="6.5024" x2="11.5" y2="4.25" width="0.2032" layer="1"/>
+<wire x1="19.464" y1="6.5024" x2="12.2604" y2="6.5024" width="0.2032" layer="1"/>
+<wire x1="12.2604" y1="6.5024" x2="10.0486" y2="4.2886" width="0.2032" layer="1"/>
 </signal>
 <signal name="BUTTON2">
 <contactref element="ATMEGA32U4" pad="37"/>
@@ -16980,15 +16979,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="26.383925" y1="26.404875" x2="26.7792" y2="26.0096" width="0.2032" layer="1"/>
 <wire x1="26.7792" y1="26.0096" x2="26.7792" y2="13.208" width="0.2032" layer="1"/>
 <wire x1="26.7792" y1="13.208" x2="19.6672" y2="6.096" width="0.2032" layer="1"/>
-<wire x1="19.6672" y1="6.096" x2="17.346" y2="6.096" width="0.2032" layer="1"/>
-<wire x1="17.346" y1="6.096" x2="15" y2="3.75" width="0.2032" layer="1"/>
+<wire x1="19.6672" y1="6.096" x2="15.8474" y2="6.096" width="0.2032" layer="1"/>
+<wire x1="15.8474" y1="6.096" x2="13.5486" y2="3.7886" width="0.2032" layer="1"/>
 </signal>
 <signal name="BUTTON3">
 <contactref element="ATMEGA32U4" pad="38"/>
 <contactref element="U$6" pad="5"/>
 <wire x1="27.183925" y1="27.398290625" x2="27.1856" y2="13.0048" width="0.2032" layer="1"/>
-<wire x1="27.1856" y1="13.0048" x2="18.5" y2="4.3192" width="0.2032" layer="1"/>
-<wire x1="18.5" y1="4.3192" x2="18.5" y2="4.25" width="0.2032" layer="1"/>
+<wire x1="27.1856" y1="13.0048" x2="18.4492" y2="4.2684" width="0.2032" layer="1"/>
+<wire x1="18.4492" y1="4.2684" x2="17.0486" y2="4.2886" width="0.2032" layer="1"/>
 </signal>
 <signal name="BUTTON4">
 <contactref element="ATMEGA32U4" pad="39"/>
@@ -16997,8 +16996,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="27.983925" y1="26.198325" x2="27.592" y2="25.8064" width="0.2032" layer="1"/>
 <wire x1="27.592" y1="25.8064" x2="27.592" y2="12.8016" width="0.2032" layer="1"/>
 <wire x1="27.592" y1="12.8016" x2="22.1056" y2="7.3152" width="0.2032" layer="1"/>
-<wire x1="22.1056" y1="7.3152" x2="22.1056" y2="3.8556" width="0.2032" layer="1"/>
-<wire x1="22.1056" y1="3.8556" x2="22" y2="3.75" width="0.2032" layer="1"/>
+<wire x1="22.1056" y1="7.3152" x2="20.5562" y2="5.7606" width="0.2032" layer="1"/>
+<wire x1="20.5562" y1="5.7606" x2="20.5486" y2="3.7886" width="0.2032" layer="1"/>
 </signal>
 <signal name="SHIELD">
 <contactref element="U$13" pad="SH8"/>
@@ -17027,54 +17026,44 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </signal>
 </signals>
 <errors>
-<approved hash="3,1,b9c8320c33f0b834"/>
-<approved hash="18,29,2b71f491f6562b72"/>
-<approved hash="18,29,fa53ed93ee4efa8a"/>
-<approved hash="18,29,e253f7b3f5a0e284"/>
-<approved hash="18,29,2d70749076582d7c"/>
-<approved hash="18,29,f551e091e248f48c"/>
-<approved hash="18,29,94d85753d75314d8"/>
-<approved hash="18,29,c9033206b2064903"/>
-<approved hash="18,29,2e0cdd005d00ae0c"/>
-<approved hash="18,29,37deb4523452b7de"/>
-<approved hash="18,29,4337b8cb38cbc337"/>
-<approved hash="18,29,a0315b34db342031"/>
-<approved hash="18,29,bdaa4fadcfad3daa"/>
-<approved hash="18,29,3a65c1f941f9ba65"/>
-<approved hash="18,29,2c53f7b3f5be2c9a"/>
-<approved hash="18,29,3071dffd5ffdb071"/>
-<approved hash="18,29,5d4aba363a36dd4a"/>
-<approved hash="18,29,2418c3044304a418"/>
-<approved hash="18,29,d77e30fbb0fb577e"/>
-<approved hash="18,29,29a3b6af36afa9a3"/>
-<approved hash="18,29,be4c59c9d9c93e4c"/>
-<approved hash="18,29,a3d74d50cd5023d7"/>
-<approved hash="18,29,8aa555aed5ae0aa5"/>
-<approved hash="18,29,f1418b740d53b36b"/>
-<approved hash="18,29,8ed214ea8d4f9375"/>
-<approved hash="18,29,893a1b8d8844fe73"/>
-<approved hash="18,29,89f5b3f9bb8b41a3"/>
-<approved hash="18,29,0fcd750ec3e15da2"/>
-<approved hash="18,29,c3efe5c3e5dd8631"/>
-<approved hash="5,1,d023fe2808292823"/>
-<approved hash="5,1,0ffdbdb76ff256aa"/>
-<approved hash="5,1,3350d4e4fd11653c"/>
-<approved hash="5,1,ef966173924f17ad"/>
-<approved hash="5,1,ef965fca082917ad"/>
-<approved hash="19,1,ca7629fbd7f93474"/>
-<approved hash="4,1,6d6d943691373016"/>
-<approved hash="4,1,094afd9ec5f5c6de"/>
-<approved hash="4,1,a05d48351962afe1"/>
-<approved hash="4,1,36b3e4cbc580451d"/>
-<approved hash="19,1,35af65236c233caf"/>
-<approved hash="4,1,706063392ca6c09c"/>
-<approved hash="4,1,a9078e6f48cede66"/>
-<approved hash="4,1,6ec642b4f2edc20f"/>
-<approved hash="6,1,6e93619688328737"/>
-<approved hash="6,1,df87d9802258245f"/>
-<approved hash="6,1,5c935ea603020137"/>
-<approved hash="4,16,36b3e4cbc580451d"/>
-<approved hash="4,16,a9078e6f48cede66"/>
+<approved hash="3,1,a2db1de64108a044"/>
+<approved hash="18,29,137074907658137c"/>
+<approved hash="18,29,3a53ed93ee4f3a8b"/>
+<approved hash="18,29,6a5277b275be6a9a"/>
+<approved hash="18,29,ed71f491f65aed7e"/>
+<approved hash="18,29,755160916249748d"/>
+<approved hash="18,29,0f94ac082c088f94"/>
+<approved hash="18,29,885b225ca25c085b"/>
+<approved hash="18,29,a1293aa2baa22129"/>
+<approved hash="18,29,76c6d53a553af6c6"/>
+<approved hash="18,29,95c036c5b6c515c0"/>
+<approved hash="18,29,fcf25ff7dff77cf2"/>
+<approved hash="18,29,1bfdb0f130f19bfd"/>
+<approved hash="18,29,022fd9a359a3822f"/>
+<approved hash="18,29,2c5377b375bf2c9b"/>
+<approved hash="18,29,939f341ab41a139f"/>
+<approved hash="18,29,0470db7c5b7c8470"/>
+<approved hash="18,29,09cbaed72ed789cb"/>
+<approved hash="18,29,faad5d28dd287aad"/>
+<approved hash="18,29,1da2b22e322e9da2"/>
+<approved hash="18,29,a776387db87d2776"/>
+<approved hash="18,29,8e042083a0830e04"/>
+<approved hash="18,29,7099d7e557e5f099"/>
+<approved hash="18,29,914f0b0a1552936b"/>
+<approved hash="18,29,aeb6648b152d7316"/>
+<approved hash="18,29,4d3276af4c201302"/>
+<approved hash="18,29,27e31de4dc022776"/>
+<approved hash="18,29,61acb1e1af8f1b7d"/>
+<approved hash="18,29,7ef321cd218d40e3"/>
+<approved hash="5,1,8414d21f241e7c14"/>
+<approved hash="5,1,1fa3881411e1b9cf"/>
+<approved hash="5,1,3b0c89b69ff3a65b"/>
+<approved hash="5,1,bba14d44be78439a"/>
+<approved hash="5,1,bba173fd241e439a"/>
+<approved hash="4,1,82179665263c2ede"/>
+<approved hash="6,1,36913995a031af35"/>
+<approved hash="6,1,e788e18e2a562c50"/>
+<approved hash="6,1,3c913eaa6b0e6935"/>
 </errors>
 </board>
 </drawing>
