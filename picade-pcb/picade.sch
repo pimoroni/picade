@@ -12450,7 +12450,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0603K" value="100nF"/>
-<part name="C10" library="resistor" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="BL" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0603K" value="0.1uF"/>
@@ -12558,7 +12557,6 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <instance part="GND14" gate="1" x="139.7" y="35.56"/>
 <instance part="GND6" gate="1" x="12.7" y="40.64"/>
 <instance part="C7" gate="G$1" x="154.94" y="48.26"/>
-<instance part="C10" gate="G$1" x="162.56" y="48.26"/>
 <instance part="BL" gate="G$1" x="38.1" y="114.3" rot="R90"/>
 <instance part="GND2" gate="1" x="45.72" y="109.22"/>
 <instance part="C13" gate="G$1" x="203.2" y="124.46" rot="R90"/>
@@ -12696,13 +12694,9 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <wire x1="147.32" y1="40.64" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="40.64" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <junction x="147.32" y="40.64"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="40.64" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="40.64" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 <junction x="154.94" y="40.64"/>
-<junction x="162.56" y="40.64"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="40.64" x2="170.18" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
 <junction x="170.18" y="40.64"/>
@@ -13042,16 +13036,12 @@ Designed and made by Pimoroni in Sheffield, UK</text>
 <label x="121.92" y="53.34" size="1.778" layer="95"/>
 <wire x1="147.32" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 <junction x="147.32" y="53.34"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="53.34" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="53.34" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="53.34" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
 <junction x="154.94" y="53.34"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="53.34" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
-<junction x="162.56" y="53.34"/>
 <wire x1="170.18" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 <junction x="170.18" y="53.34"/>
 <pinref part="C3" gate="G$1" pin="1"/>
